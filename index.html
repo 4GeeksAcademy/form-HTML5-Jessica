@@ -20,6 +20,7 @@
                 <div class="col-5">
                 <label for="exampleFormControlInput1" class="form-label">Card #</label>
                 <input id="exampleFormControlInput1" type="number" class="form-control" placeholder="XXXXXXXX" aria-label="Card">
+                
                      </div>
                 <div class="col-3">
                 <label for="exampleFormControlInput1" class="form-label">CVC #</label>
@@ -71,13 +72,41 @@
 
            
 
-        <div class="d-flex">
-                <div class="btn-group col-3 m-3" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-Secondary"><i class="fa-brands fa-cc-mastercard"></i></button>
-            <button type="button" class="btn btn-Secondary"><i class="fa-brands fa-cc-visa"></i></button>
-            <button type="button" class="btn btn-Secondary"><i class="fa-brands fa-cc-amex"></i></button>
-            <button type="button" class="btn btn-Secondary"><i class="fa-brands fa-cc-diners-club"></i></button>
-                </div>      
+        <div class="card-body">
+            <div class="d-flex">
+                <div class="col-6">
+                <label for="exampleFormControlInput1" class="form-label">We accept:</label>
+                <div class="d-flex">
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                <i class="fa-brands fa-cc-mastercard"></i>
+            </label>
+             </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                <i class="fa-brands fa-cc-visa"></i>
+            </label>
+                </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                <i class="fa-brands fa-cc-amex"></i>
+            </label>
+                </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                <i class="fa-brands fa-cc-diners-club"></i>
+            </label>
+               </div>
+                                
+         </div>
+               
+
+
+     </div>
         
             <div class="col-6">
                  <label for="inputPassword5" class="form-label">Message</label>
@@ -90,11 +119,19 @@
     
 <br>
 
-    <div class="card-footer text-body-secondary d-flex flex-row-reverse">
-        <button type="button" class="btn btn-secondary ms-2">Cancel</button>
-        <button type="button" class="btn btn-primary">Send</button>
+        <div class="card-footer text-body-secondary d-flex flex-row-reverse">
+            <button type="button" class="btn btn-primary ms-2">Send</button>
+            <button type="button" class="btn btn-secondary ms-2">Cancel</button>
+         </div>
+         
     </div>
-    </div>
+
+
+        <br>
+
+    
+
+</div>
     
 
     <script src="https://kit.fontawesome.com/60b0014b99.js" crossorigin="anonymous"></script>
